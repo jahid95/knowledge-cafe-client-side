@@ -2,15 +2,15 @@
 import './App.css'
 import Blogs from './components/Blogs/Blogs'
 import Header from './components/Header/Header'
-import Main from './components/Header/Main/Main'
+import Body from './components/Body/Body'
 
 function App() {
-  
+
   return (
     <div className="App">
       <Header></Header>
-      <Main></Main>
-     <Blogs></Blogs>
+      <Body></Body>
+      <Blogs></Blogs>
     </div>
   )
 }
