@@ -1,7 +1,9 @@
 import React from 'react';
 import './Cart.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+  import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
-const Cart = ({book}) => {
+const Cart = ({book, handleBookMark}) => {
     console.log(book);
     const {bookName,poster, writer, writerName, published, readTime} = book;
 
@@ -20,7 +22,10 @@ const Cart = ({book}) => {
 
                 </div>
                 <div className='bookmark-info'>
-                    <h4>{readTime} min read ...</h4>
+                   <div className='read-time'>
+                   <h4>{readTime} min read ...</h4>
+                    <button onClick={()=>handleBookMark(bookName)} className='btn-bookmark'><img src="../../../public/bookmark-regular.svg" alt="" /></button>
+                   </div>
 
                 </div>
             </div>

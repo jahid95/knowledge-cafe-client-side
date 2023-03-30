@@ -1,6 +1,5 @@
 .content-container{
     display: grid;
     grid-template-columns: 9fr 3fr;
-    margin-top: 50px;
-   
+    margin-top: 50px;    
 }

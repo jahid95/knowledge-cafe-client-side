@@ -1,6 +1,6 @@
 .cart-container {
     margin-bottom: 100px;
-    
+
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     border-radius: 8px;
     padding: 20px;
@@ -32,4 +32,19 @@
     height: 60px;
     border-radius: 50%;
     margin-right: 20px;
+}
+
+.read-time {
+    display: flex;
+
+}
+
+.btn-bookmark img {
+    width: 24px;
+    height: 24px;
+}
+
+.btn-bookmark{
+    border: 0;
+    background-color: white;
 }
