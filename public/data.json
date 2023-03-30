@@ -1,11 +1,13 @@
 [
     {
-      "bookName": "The Dark Knight",
+      "bookName": "The Nature Mockup Book",
       "readTime": 152,
       "description": "Gotham's protector battles the Joker's chaos.",
       "poster": "https://img.freepik.com/free-psd/magazine-cover-mockup-psd-with-nature-image_53876-116363.jpg?w=996&t=st=1680186895~exp=1680187495~hmac=d9fa244f4edb1166da9713923e616a9b0f4885b9bef7b64bfed39f0e98b63d33",
       "writer": "https://img.freepik.com/free-photo/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes_176532-10257.jpg?w=996&t=st=1680187496~exp=1680188096~hmac=e924d16ca085d2e68d7e6314f41ccf040e4257960c4049a6ddd4d6d5ea718992",
+      "writerName": "Bret Lee",
       "category": "Action/Crime",
+      "published": "20 March 2023",
       "imdbRating": 9.0
     },
     {
@@ -14,7 +16,9 @@
       "description": "Wrongfully imprisoned men bond over time.",
       "poster": "https://img.freepik.com/free-vector/professional-business-book-cover_23-2149490317.jpg?w=826&t=st=1680186940~exp=1680187540~hmac=4ae97f1dbe634bd46bf0dfc8d54491624d385ac30bf2415548af3aa5940d251a",
       "writer": "https://img.freepik.com/free-photo/portrait-modern-man_23-2147960990.jpg?w=740&t=st=1680187352~exp=1680187952~hmac=e2eba30080263c62bd105fbc4dafa40ece74ae967fd3627ab0104c408b829819",
+      "writerName": "Grand Smith",
       "category": "Drama",
+      "published": "15 January 2023",
       "imdbRating": 9.3
     },
     {
@@ -23,16 +27,20 @@
       "description": "Dream thieves venture into a man's subconscious.",
       "poster": "https://img.freepik.com/free-psd/book-hardcover-mockup_125540-225.jpg?w=900&t=st=1680186993~exp=1680187593~hmac=db7cf871d1b88014b3c7f3bc20b1d6b359b36c57104e8702985305a5d05eb885",
       "writer": "https://img.freepik.com/free-photo/smiling-businessman-face-portrait-wearing-suit_53876-148138.jpg?w=900&t=st=1680187430~exp=1680188030~hmac=78ecc3589476b343e4b2d1ac696de77bbf2cbf83285ed8dcae448a4f0e734e64",
+      "writerName": "Mac Donald",
       "category": "Action/Sci-Fi",
+      "published": "11 December 2022",
       "imdbRating": 8.8
     },
     {
-      "bookName": "Forrest Gump",
+      "bookName": "The Bike Guy",
       "readTime": 142,
       "description": "Simple man becomes unwitting participant in historic events.",
       "poster": "https://img.freepik.com/free-vector/bike-guy-wattpad-book-cover_23-2149452163.jpg?w=740&t=st=1680187034~exp=1680187634~hmac=6bdf80ea760c0ce0cfe36a614570a96134d6e2d8d3290385dc6cefafccc44338",
       "writer": "https://img.freepik.com/free-photo/portrait-smiley-woman_23-2148827181.jpg?w=996&t=st=1680187584~exp=1680188184~hmac=26f411479b80b364a19d03490d1805c45cb2d892dedb4f604bc71ab15536d3d4",
+      "writerName": "by Emma Mayars",
       "category": "Drama/Comedy",
+      "published": "14 July 2022",
       "imdbRating": 8.8
     }
    

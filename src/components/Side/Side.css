@@ -1,0 +1,28 @@
+.bookmark-blogs {
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+}
+.bookmark-blogs h2{
+    text-align: center;
+    font-size: 22px;
+}
+
+.bookmark-container h4 {
+    text-align: center;
+
+    padding: 10px 20px;
+}
+
+.spent-time {
+    background: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    border-radius: 8px;
+    color: #6047EC;
+    width: 90%;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
