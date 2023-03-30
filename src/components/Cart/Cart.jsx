@@ -3,8 +3,8 @@ import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
-const Cart = ({book, handleBookMark}) => {
-    console.log(book);
+const Cart = ({book, handleBookMark, handleReadTime}) => {
+    
     const {bookName,poster, writer, writerName, published, readTime} = book;
 
     return (
@@ -30,7 +30,7 @@ const Cart = ({book, handleBookMark}) => {
                 </div>
             </div>
             <h2>{bookName}</h2>
-            <a href="">Mark as read...</a>
+            <button onClick={()=>handleReadTime(readTime)}>Mark as read...</button>
         </div>
     );
 };

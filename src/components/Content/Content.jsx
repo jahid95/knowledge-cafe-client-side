@@ -7,6 +7,7 @@ import './Content.css'
 const Main = () => {
     const [books, setBooks] = useState([])
     const [bookmark, setBookmark] = useState([])
+    const [time, setTime] = useState([])
 
     useEffect(()=>{
         fetch('data.json')
@@ -23,15 +24,20 @@ const Main = () => {
         const newArray =[...bookmark, book];      
         setBookmark(newArray)
     }
+
+    const handleReadTime = (readTime) =>{
+        const newTime = [...time, readTime];
+        setTime(newTime)
+    }
     return (
         <div className='content-container'>
             <div className='books-container'>
             {
-                books.map(book => <Cart book={book} handleBookMark={handleBookMark}></Cart>)
+                books.map(book => <Cart book={book} handleBookMark={handleBookMark} handleReadTime={handleReadTime}></Cart>)
             }
             </div>
             <div className='bookmark-conatiner'>
-                <Side bookmark={bookmark}></Side>         
+                <Side bookmark={bookmark} time={time}></Side>         
             </div>
 
             
