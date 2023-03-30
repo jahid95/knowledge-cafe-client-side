@@ -1,0 +1,35 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(56, 53, 56, 0.101);
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 30px;
+    border-radius: 8px;
+}
+
+.nav h2 {
+    color: rgb(1, 1, 104);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items a {
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(1, 1, 104);
+    font-weight: 600;
+}
+
+nav a img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
