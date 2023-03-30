@@ -2,14 +2,14 @@
 import './App.css'
 import Blogs from './components/Blogs/Blogs'
 import Header from './components/Header/Header'
-import Body from './components/Body/Body'
+import Content from './components/Content/Content'
 
 function App() {
 
   return (
     <div className="App">
       <Header></Header>
-      <Body></Body>
+      <Content></Content>
       <Blogs></Blogs>
     </div>
   )
