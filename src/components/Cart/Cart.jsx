@@ -8,7 +8,7 @@ const Cart = ({book, handleBookMark, handleReadTime}) => {
     const {poster, writer, writerName, published, readTime, description} = book;
 
     return (
-        <div className='cart-container'>
+        <div id='books' className='cart-container'>
             <img src={poster} alt="" />
             
             <div className='writer-details'>

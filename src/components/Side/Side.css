@@ -19,7 +19,7 @@
     border: 1px solid #6047EC;
     border-radius: 8px;
     color: #6047EC;
-    width: 90%;
+    width: 85%;
     height: 50px;
     font-size: 20px;
     text-align: center;
@@ -34,4 +34,8 @@
     padding: 20px;
     border-radius: 8px;
     font-size: 18px;
+}
+
+.bookmark-container{
+    padding-left: 10px;
 }

@@ -1,3 +1,15 @@
 .question{
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.blogs-title{
+    background-color: rgba(0, 9, 9, 0.649);
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 8px;
+    color: whitesmoke;
 }

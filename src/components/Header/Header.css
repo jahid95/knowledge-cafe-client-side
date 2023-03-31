@@ -7,6 +7,8 @@
     margin: 0 auto;
     padding: 0 30px;
     border-radius: 8px;
+    position: sticky;
+    top: 0;
 }
 
 .nav h2 {
@@ -34,6 +36,17 @@ nav a img {
     border-radius: 50%;
 }
 
+.logo-img{
+    width: 60px;
+    height: 60px;
+}
+
+.header-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 @media screen and (max-width: 688px) {    
     .nav{
         flex-direction: column;
@@ -44,7 +57,7 @@ nav a img {
         flex-direction: column;
         gap: 20px;
         justify-content: start;
-        margin-right: 190px;
+        margin-right: 50px;
         padding-bottom: 10px;
     }
     
