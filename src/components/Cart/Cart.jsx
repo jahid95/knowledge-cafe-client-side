@@ -24,7 +24,7 @@ const Cart = ({book, handleBookMark, handleReadTime}) => {
                 <div className='bookmark-info'>
                    <div className='read-time'>
                    <h4 className='readTime'>{readTime} min read</h4>
-                    <button onClick={()=>handleBookMark(description)} className='btn-bookmark'><img src="../../../public/bookmark-regular.svg" alt="" /></button>
+                    <button onClick={()=>handleBookMark(description)} className='btn-bookmark'><FontAwesomeIcon icon={faBookmark} /></button>
                    </div>
 
                 </div>

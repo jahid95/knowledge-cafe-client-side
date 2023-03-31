@@ -48,7 +48,8 @@
     border: 0;
     background-color: white;
     cursor: pointer;
-    color: rgb(168, 166, 166);;
+    color: rgb(168, 166, 166);
+    font-size: 24px;
 }
 
 .mark-read{
@@ -71,5 +72,9 @@
         width: 100%;
         height: auto;
     }
+    .read-time {
+        display: flex;
+        flex-direction: column;
     
+    }
 }
