@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Cart = ({book, handleBookMark, handleReadTime}) => {
     
-    const {bookName,poster, writer, writerName, published, readTime} = book;
+    const {poster, writer, writerName, published, readTime, description} = book;
 
     return (
         <div className='cart-container'>
@@ -23,14 +23,14 @@ const Cart = ({book, handleBookMark, handleReadTime}) => {
                 </div>
                 <div className='bookmark-info'>
                    <div className='read-time'>
-                   <h4>{readTime} min read ...</h4>
-                    <button onClick={()=>handleBookMark(bookName)} className='btn-bookmark'><img src="../../../public/bookmark-regular.svg" alt="" /></button>
+                   <h4 className='readTime'>{readTime} min read</h4>
+                    <button onClick={()=>handleBookMark(description)} className='btn-bookmark'><img src="../../../public/bookmark-regular.svg" alt="" /></button>
                    </div>
 
                 </div>
             </div>
-            <h2>{bookName}</h2>
-            <button onClick={()=>handleReadTime(readTime)}>Mark as read...</button>
+            <h2>{description}</h2>
+            <button className='mark-read' onClick={()=>handleReadTime(readTime)}>Mark as read...</button>
         </div>
     );
 };

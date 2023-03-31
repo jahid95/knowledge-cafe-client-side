@@ -14,7 +14,7 @@ const Side = ({bookmark, time}) => {
             <div className='bookmark-blogs'>
                 <h2>Bookmarked Blogs:{bookmark.length}</h2>
                 {
-                    bookmark.map(mark => <p>{mark}</p>)
+                    bookmark.map(mark => <p className='bookmark-item'>{mark}</p>)
                 }
             </div>
         </div>

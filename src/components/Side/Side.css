@@ -1,6 +1,7 @@
 .bookmark-blogs {
     background: rgba(17, 17, 17, 0.05);
     border-radius: 8px;
+    padding: 10px;
 }
 .bookmark-blogs h2{
     text-align: center;
@@ -25,4 +26,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.bookmark-item {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
 }

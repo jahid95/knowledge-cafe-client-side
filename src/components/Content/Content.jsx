@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Side from '../Side/Side';
 import './Content.css'
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Main = () => {
     const [books, setBooks] = useState([])
@@ -18,7 +19,7 @@ const Main = () => {
     const handleBookMark =(book) =>{
         const same = bookmark.find(s => s===book);
         if(same){
-            alert('already bookmarked')
+            toast(" “You Have Already Bookmarked This Blog” ");
             return;
         }
         const newArray =[...bookmark, book];      
