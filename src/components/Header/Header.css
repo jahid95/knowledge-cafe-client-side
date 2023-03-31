@@ -33,3 +33,19 @@ nav a img {
     height: 60px;
     border-radius: 50%;
 }
+
+@media screen and (max-width: 688px) {    
+    .nav{
+        flex-direction: column;
+        
+    }
+
+    .nav-items{
+        flex-direction: column;
+        gap: 20px;
+        justify-content: start;
+        margin-right: 190px;
+        padding-bottom: 10px;
+    }
+    
+}

@@ -34,7 +34,7 @@ const Main = () => {
         <div className='content-container'>
             <div className='books-container'>
             {
-                books.map(book => <Cart book={book} handleBookMark={handleBookMark} handleReadTime={handleReadTime}></Cart>)
+                books.map(book => <Cart book={book} handleBookMark={handleBookMark} handleReadTime={handleReadTime} key={book.id}></Cart>)
             }
             </div>
             <div className='bookmark-conatiner'>

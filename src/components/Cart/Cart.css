@@ -63,3 +63,13 @@
     font-size: 20px;
     color: rgb(168, 166, 166);
 }
+
+
+/* responsive cart */
+@media screen and (max-width: 688px) {    
+    .cart-container>img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
